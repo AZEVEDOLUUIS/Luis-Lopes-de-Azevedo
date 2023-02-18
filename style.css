@@ -1,0 +1,88 @@
+/*texto hero image*/
+.hero_titulo{
+	font-size: 4.5rem;
+}
+
+.hero_desc{
+	font-size: 2rem;
+}
+
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.bgimage{
+	height: 100vh;
+	background: url('img/heroImage.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+/* imagen sobre */
+
+.imagemSobre{
+	width: 70%;
+}
+
+/* serviços */
+
+.servicesText.card{
+	height: 280px;
+	cursor: pointer;
+}
+
+.servicesIcon{
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card:hover .serviceIcon{
+	color: #008000;
+}
+
+.servicesText:hover{
+	border: 1px solid #008000;
+}
+
+/** Menu **/
+
+.navbar{
+	background: #006342;
+}
+
+.navbar a:hover{
+	color: black;
+	background: #ddd;
+}
+
+.contactIcon{
+	font-size: 56px;
+	color: #006342;
+}
+
+.glass{
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(225, 225, 225, 0.05);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.9px);
+	-webkit-backdrop-filter: blur(4.9px);
+}
+
+#sobre, #habilidades, #portfolio, #contato{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
